@@ -26,6 +26,7 @@ public class TcpServer {
             //3.클라이언트로부터 연결 요청이 올때까지 대기(block상태)
             //Tcp 연결과정은 3-hand-shake Socket 객체반환
             //Tcp 연결은 java에서 처리해주며, 더 내부적으론 Os가 처리한다.
+
             Socket socket=serverSocket.accept();
 
             //4.연결 요청이 오면 연결이 되었다는 메세지 출력
